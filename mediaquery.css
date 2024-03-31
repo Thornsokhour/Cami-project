@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px){
+    .discount-wrap{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .discount{
+
+        background-color: lightskyblue;
+    }
+    .instock-wrap{
+        grid-template-columns:1fr 1fr 1fr;
+        background-color: lightpink;
+    }
+    .instock{
+        background-color: lightcyan;
+    }
+    .btn:hover{
+        background-color: lightgreen;
+    }
+    .btn{
+        background-color: lightcoral;
+    }
+
+}
